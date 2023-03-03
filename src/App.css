@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lexend", 'Josefin sans', 'sans-serif';
+}
+
+h6 {
+  font-size: 22px;
+  line-height: 24px;
+  color: cadetblue;
+}
+
+h2 {
+  font-size: 52px;
+  line-height: 54px;
+}
+
+h4 {
+  font-size: 26px;
+  line-height: 28px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.bMain {
+  background: #e6e8f2;
+  border-radius: 25px;
+  padding: 0.5rem;
+}
+
+.h-650 {
+  height: 650px;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+
+.col-4 {
+  width: 33.3333333333%;
+}
+
+/* navbar */
+
+.navbar {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  background: linear-gradient(33deg, rgba(242, 242, 255, 1) 0%, rgba(235, 249, 255, 1) 100%);
+}
+
+.navbar_container {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+}
+
+.navbar_left-logo img {
+  width: 80px;
+  padding-top: 15px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 450;
+  font-size: 20px;
+  padding: 0 15px;
+}
+
+.nav-links li a:hover {
+  color: lightsalmon;
+}
+
+/* header */
+
+header {
+  background: linear-gradient(33deg, rgba(242, 242, 255, 1) 0%, rgba(235, 249, 255, 1) 100%);
+  padding-top: 7rem;
+  height: 48rem;
+}
+
+.header_content {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  color: cadetblue;
+}
+
+.header-section h1 {
+  font-size: 85px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.header-section h1 {
+  color:#3f396f;
+  font-weight: 600;
+  font-size: 52px;
+  margin-bottom: 10px;
+  line-height: 54px;
+}
+
+.header-section p {
+  font-size: 22px;
+  line-height: 33px;
+  color: #7d7789;
+  margin-bottom: 26px;
+  font-family: 'Lato', sans-serif;
+}
+
+.btn {
+  outline: none;
+  border: none;
+  color: #000;
+  text-decoration: none;
+}
+
+.btn-outline {
+  background-color: cadetblue;
+  padding: 20px 58px 19px;
+  color: #fff;
+  font-size: 20px;
+  display: inline-block;
+  border-radius: 35px;
+  line-height: 20px;
+  box-shadow: 0 0 85px 0 #e9eefc;
+  border: 1px solid transparent;
+  transition: all 0.3s;
+}
+
+.btn-outline:hover {
+  background-color: lightsalmon;
+}
+
+@keyframes right-mover {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-10px);
+  }
+}
+
+
+@media only screen and (max-width: 768px){
+  .image{
+    display: none;
+  }
+} 
+
+/* About */
